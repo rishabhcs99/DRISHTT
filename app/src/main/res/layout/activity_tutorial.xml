@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rishabhshetty.drishtt.Tutorial">
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Hello first time user heres your Tutorial.\nTo call any Number: \nOn to the left we have Reset Button.\nOn the right we have the Enter Button.\nIn the center We have a BCD Board of Values 8,4,2,1 (top to bottom) Respectively. \nThis Keypad takes One Value at a time.\nPressing the reset button once Resets Onboard Values.\nPressing the Enter Button Once Enters a Value.\nLong Press on the Reset Button Resets all previously entered Values. \nand Long Press on Enter Helps you Have This Tutorial Again"
+
+        tools:background="@android:color/holo_blue_dark" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Button"
+            android:visibility="invisible"
+            />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
